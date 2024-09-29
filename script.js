@@ -14,6 +14,7 @@ let daysBox = document.getElementById("days");
 
 calculateBtn.addEventListener('click', function() {
     
+    if(yourAge.value){
     let birthDate = new Date(yourAge.value);
     let birthYear = birthDate.getFullYear();
     let birthMonth = birthDate.getMonth() + 1; 
@@ -36,6 +37,9 @@ calculateBtn.addEventListener('click', function() {
     yearBox.textContent = ageYears;
     monthBox.textContent = ageMonths;
     daysBox.textContent = ageDays;
+}else{
+    alert('Enter Date Of Birth');
+}
 });
 
 

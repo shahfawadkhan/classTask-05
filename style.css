@@ -1,7 +1,7 @@
 
 body{
     
-    background-color:#5AB2FF;
+    background-color:#0096FF;
     
 }
 .age-calculator{
@@ -40,18 +40,24 @@ body{
     font-weight: bolder;
 }
 .innerBtn1{
-   width: 100px;
-   height: 50px;
-   font-size: 20px;
+   width: 110px;
+   height: 70px;
+   
    border-radius: 5px;
+   font-size: 25px;
+   color:  #0B192C;
 }.innerBtn2{
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 5px;
+    color:  #0B192C;
 }
+
 
 @media(max-width:430px){
     .age-calculator{
-        width: 330px;
+        width: 315px;
     }
     .inputs{
         justify-content: space-between;
@@ -62,4 +68,16 @@ body{
         gap: 5px;
         padding: 10px;
     }
+    .innerBtn1{
+        width: 90px;
+        height: 70px;
+        
+        border-radius: 5px;
+        font-size: 19px;
+     }.innerBtn2{
+         width: 90px;
+         height: 50px;
+         font-size: 13px;
+         border-radius: 5px;
+     }
 }
