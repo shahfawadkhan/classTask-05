@@ -10,6 +10,8 @@ let yearBox = document.getElementById("year");
 let monthBox = document.getElementById("months");
 let daysBox = document.getElementById("days");
 
+//...
+
 calculateBtn.addEventListener('click', function() {
     
     let birthDate = new Date(yourAge.value);
