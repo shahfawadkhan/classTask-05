@@ -6,3 +6,28 @@ body{
     display: flex;
     justify-content: center;align-items: center;
 }
+.age-calculator{
+    
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    gap: 20px;
+}
+.age{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+}
+#myage{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+#calculate{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
