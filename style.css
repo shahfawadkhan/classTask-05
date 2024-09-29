@@ -14,13 +14,23 @@ body{
     height: 300px;
     gap: 20px;
 }
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
 .age{
+    padding: 20px;
     background: black;
     display: flex;
     justify-content: space-between;
+    border-radius: 10px;
 }
 #myage{
     padding: 10px 20px;
+    width: 200px;
     outline: none;
     border-radius: 10px;
     border: none;
@@ -30,4 +40,13 @@ body{
     border: none;
     border-radius: 10px;
     font-weight: bolder;
+}
+.innerBtn1{
+   width: 100px;
+   height: 50px;
+   font-size: 20px;
+   border-radius: 5px;
+}.innerBtn2{
+    width: 100px;
+    height: 30px;
 }

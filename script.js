@@ -20,7 +20,7 @@ calculateBtn.addEventListener('click', function() {
         let ageMonths = currentMonth - birthMonth;
         let ageDays = currentDay - birthDay;
 
-    yearBox.textContent = `${ageYears}<br>Years`;
+    yearBox.textContent = {ageYears};
     monthBox.textContent = ageDays;
     daysBox.textContent = ageDays;
 
