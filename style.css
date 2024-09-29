@@ -2,7 +2,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(34, 146, 238);
+    background-color:#5AB2FF;
     display: flex;
     justify-content: center;align-items: center;
 }
@@ -12,23 +12,23 @@ body{
     flex-direction: column;
     width: 400px;
     height: 300px;
-    gap: 20px;
+    gap: 10px;
 }
 .inputs{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #0B192C;
     padding: 20px;
     border-radius: 10px;
 }
 .age{
     padding: 20px;
-    background: black;
+    background: #0B192C;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
 }
-#myage{
+#yourAge{
     padding: 10px 20px;
     width: 200px;
     outline: none;
